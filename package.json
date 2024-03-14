@@ -1,11 +1,12 @@
 {
-  "name": "desafio-tech-testes",
+  "name": "jest-test-implementing",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "test Jest",
+  "main": "server.ts",
+  "license": "MIT",
   "scripts": {
-    "dev": "nodemon index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "tsnd --respawn server.ts",
+    "test": "jest"
   },
   "dependencies": {
     "express": "^4.18.2",
@@ -13,6 +14,10 @@
     "mysql2": "^3.5.2"
   },
   "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/knex": "^0.16.1",
+    "ts-node": "^10.9.2",
+    "ts-node-dev": "^2.0.0",
     "typescript": "^5.4.2"
   }
 }
