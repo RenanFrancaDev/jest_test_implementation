@@ -1,15 +1,15 @@
-import knex, { Knex } from "knex";
+import knex from "knex";
 import knexConfig from "../config/knex";
 
-let conn: Knex;
+let conn: any;
 
-async function knexService() {
+function knexService() {
   if (conn) {
     return conn;
   }
 
-  conn = await knex(knexConfig);
+  conn = knex(knexConfig);
   return conn;
 }
 
-export default knexService;
+export default knexService();

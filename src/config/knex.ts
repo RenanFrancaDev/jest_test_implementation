@@ -1,15 +1,4 @@
-interface KnexConfig {
-  client: string;
-  connection: {
-    host: string;
-    port: number;
-    user: string;
-    password: string;
-    database: string;
-  };
-}
-
-const knexConfig: KnexConfig = {
+export default {
   client: "mysql2",
   connection: {
     host: "localhost",
@@ -19,5 +8,3 @@ const knexConfig: KnexConfig = {
     database: "test_jest",
   },
 };
-
-export default knexConfig;
