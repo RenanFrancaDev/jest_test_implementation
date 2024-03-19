@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "test Jest",
   "main": "server.ts",
-  "license": "MIT",
   "scripts": {
     "dev": "tsnd --respawn server.ts",
     "test": "jest"
@@ -17,7 +16,9 @@
     "@types/express": "^4.17.21",
     "@types/jest": "^29.5.12",
     "@types/knex": "^0.16.1",
+    "@types/supertest": "^6.0.2",
     "jest": "^29.7.0",
+    "supertest": "^6.3.4",
     "ts-jest": "^29.1.2",
     "ts-node": "^10.9.2",
     "ts-node-dev": "^2.0.0",
