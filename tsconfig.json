@@ -5,8 +5,8 @@
     "target": "es6",
     "skipLibCheck": true,
     "strict": true,
-    "esModuleInterop": true,
-    "moduleResolution": "node"
+    "esModuleInterop": true, //error in the log, server.ts
+    "moduleResolution": "node" // find the moldel in node_modules
   },
   "include": ["./src/**/*.ts"]
 }
