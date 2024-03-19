@@ -93,16 +93,6 @@ Use the last version of Jest
 
 After the packages and interface implemented, it's time to create test for main back-end features.
 
-#### Install supertest:
-
-```
-npm i supertest --save-dev
-```
-
-```
-npm i --save-dev @types/supertest
-```
-
 #### Diretory Structure:
 
 organize tests into a clear and consistent directory structure, separating by modules and features.
@@ -115,22 +105,6 @@ Ensure the tests are in a clear and consistent directory and separete them by mo
 
 Ensure that this repository cover differents paths, including valid and invalid entries to make the system with higher performance.
 
-## Start App
-
-In the project directory, you can run:
-
-```
-npm run dev
-```
-
-to start the API
-
-```
-npm test
-```
-
-to runner the tests
-
 ## Techs:
 
 - [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
@@ -139,8 +113,6 @@ to runner the tests
 - [Express.js](https://expressjs.com/pt-br/)
 - [Knex](https://knexjs.org/guide/query-builder.html#knex)
 - [MySQL](https://www.mysql.com/)
-- [Jest](https://jestjs.io/pt-BR/docs/getting-started)
-- [Supertest](https://www.npmjs.com/package/supertest)
 
 ## Contact
 
