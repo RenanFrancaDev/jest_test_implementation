@@ -1,11 +1,13 @@
 export interface IAluno {
   id: number;
   nome: string;
-  cpf: number;
+  email: string;
+  nacionalidade: string;
 }
 
 export interface IAlunoParams {
   id: number;
   nome: string;
-  cpf: number;
+  email: string;
+  nacionalidade: string;
 }
